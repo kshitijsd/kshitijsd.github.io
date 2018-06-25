@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="IANT | Institute of Advance Network Technology" />
+	<meta name="google-site-verification" content="WCwcnxGOpCVXvS1LNfYXgiQLNALnvfhKxdgc9KfpO4w" />
+	<meta property="og:image" content="/Content/img/IANT.png" />
+	<meta property="og:site_name" content="https://iantindia.com" />
+	<meta property="og:description" content="IANT (Institute of Advance Network Technology) is a premier IT Company facilitating Advanced IT [Retail & Corporate] Training, International Educational Certifications, Infrastructure Development, Manpower Outsourcing & Recruitment. Incorporated in 1999 by Eminent Educationalist Dr. R. F. Kherani, IANT has successfully established a vision for IT education in India." />
+	<meta name="description" content="IANT is a Premier IT Company Facilitating Advanced IT Training, International Certifications, Ethical hacking and Cyber security Courses, Hardware Networking Courses and Certifications, We are Partner of Cisco, Redhat, CompTIA, Microsoft." />
+	<link rel="icon" href="/content/img/fevicon.png" type="image/x-icon" alt="IANT LOGO" />
+	<title>IANT:India&#39;s No.1 Advanced IT training Institute and company</title>
+	
+	<link href="https://fonts.googleapis.com/css?family=Lobster+Two|Pacifico|Poor+Story|Satisfy" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">                                                         
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="project.css">
+
+</head>
+<body data-spy="scroll" data-target="#navbar-example1" data-offset="0">
+  <div class="container-fluid">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light navbar fixed-top"  id="navbar-example1" style="background-color:rgba(0,0,0,1.0);">
+		<a class="navbar-brand" href="https://www.iantindia.com/"><img src="https://www.getmyneed.com/images/institutes/7e16eb57b2bea3ca83b9d003aae71a50.png" style="height:65px;width: 260px;"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		   <ul class=" nav navbar-nav ml-auto active" style="padding-left: 600px;">
+			  <li class="nav-item">
+				 <a class="nav-link active" href="#about"   id="navbar-example1"">About <span class="sr-only">(current)</span></a>
+			  </li>
+			  <li class="nav-item">
+				 <a class="nav-link active" href="#contact"   id="navbar-example1">Contact</a>
+			  </li>
+
+			  <li class="nav-item dropleft">
+
+				 <a class="nav-link dropdown-toggle  active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				 Courses
+				 </a>
+				 
+				 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          <a class="dropdown-item" href="#red"><img src="data:image/png;base64,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"style="height: 20px;width: 30px;margin-right: 5px;">   REDHAT</a>
+				          <a class="dropdown-item" href="#microsoft"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4mrfFoM4t-Hm6DBcc8i8v3fL88TiKoYsYx4xkM7dzjwc2QHR8OA" style="height: 40px;width: 35px;margin-left: -5px;margin-right: 5px;"> MICROSOFT</a>
+                          <a class="dropdown-item" href="#comptia"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_oegkg-6F2uAjK9tGu42GltF4s6yVv0acbKTQvbgw3j9Y7WVfag" style="height: 45px;width: 35px;"> CompTIA</a>
+                          <a class="dropdown-item" href="#cisco"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnVkpr4x2bc5SR6HXON1tiFvcHusJqMH3D1rjvWVQeMHf-6s0X" style="height: 40px;width: 30px;margin-right: 10px;">  CISCO</a>
+                          <a class="dropdown-item" href="#oracle"><img src="data:image/png;base64,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" style="height: 50px;width: 40px;"> ORACLE</a>
+                          <a class="dropdown-item" href="#star"><img src="data:image/png;base64,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" style="height: 40px;width: 35px;"> STAR CERTIFICATIONS</a>
+                          <a class="dropdown-item" href="#career"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW0qL1DJj1R3ferzNe7YSBg_KVvCu3h8TTP8MdOs8fUgWmyc4YCw" style="height: 40px;width: 38px;"> CAREER COURSES</a>
+				        </div>
+				</li>
+			  </li>
+			</ul>
+		</div>
+	</nav>
+  </div>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+  </ol>
+  <div class="carousel-inner">
+    
+    <div class="carousel-item" id="caro">
+      <img class="d-block w-100 img-fluid img-thumbnail" src="https://images.techhive.com/images/article/2015/08/microsoft-logo-redwest-a-100611028-large.jpeg" alt="Second slide">
+    </div>
+    <div class="carousel-item active" id="caro">
+      <img class="d-block w-100 img-fluid img-thumbnail" src="https://1.bp.blogspot.com/-XqDQACNTDBg/Wqp664l80VI/AAAAAAAAwBo/2YykJUpLb9kdAnMF4mrwbQGjVMXVivmJgCLcBGAs/s728-e100/comptia-certification-training-courses.png" alt="First slide">
+    </div>
+    <div class="carousel-item" id="caro">
+      <img class="d-block w-100 img-fluid img-thumbnail" src="https://www.helpnetsecurity.com/images/posts/oracle-red.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item" id="caro">
+    <img  class="d-block w-100 img-fluid img-thumbnail" src="https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2016/06/Cisco-Systems-executive-departures.png">
+    </div>
+    <div class="carousel-item" id="caro">
+    <img  class="d-block w-100 img-fluid img-thumbnail" src="https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2017/05/9eQcOTT.png">
+    </div>
+    	
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!--
+<div class="container-fluid" style="padding-left: 85px;width:100%;">
+		<nav aria-label="breadcrumb fixed-top" style="margin-top: 75px;width: 1360px;" >
+		  <ol class="breadcrumb ">
+			 <li class="breadcrumb-item"><a href="#">Home</a></li>
+			 <li class="breadcrumb-item"><a href="#">Library</a></li>
+			 <li class="breadcrumb-item active" aria-current="page">Data</li>
+		  </ol>
+		</nav>
+	</div>
+ --><main>
+ <article>
+ <p style="margin-top: 60px;"></p>	 
+<div class="container-fluid" style="">
+  <div class="row">
+    
+	<!-- 	<nav aria-label="breadcrumb">
+		  <ol class="breadcrumb">
+			 <li class="breadcrumb-item"><a href="#">Home</a></li>
+			 <li class="breadcrumb-item"><a href="#">Library</a></li>
+			 <li class="breadcrumb-item active" aria-current="page">Data</li>
+		  </ol>
+		</nav>
+	 --><div class="col-sm-6" id="about">
+		<h1 style="text-align: center;margin-left: -55px;font-family:'satisfy' ;color:#065670;">Company Overview </h1>
+		  <hr>
+		  <h5 class="line" style="line-height: 35px;">IANT (Institute of Advance Network Technology) is a premier IT Company facilitating Advanced IT [Retail & Corporate] Training, International Educational Certifications, Infrastructure Development, Manpower Outsourcing & Recruitment. Incorporated in 1999 by Eminent Educationalist Dr. R. F. Kherani, IANT has successfully established a vision for IT education in India.</h5>
+		  <a class="btn btn-primary btn-sm" href="https://www.iantindia.com/About" role="button" style="margin-left: 40%;">+Read More</a>
+	</div>
+	<div class="col-sm-6">
+	  <div class="container">
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		   <ol class="carousel-indicators">
+			 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		   </ol>
+		<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100 img-fluid img-thumbnail" src="https://images.click.in/classifieds/images/72/9_7_2014_10_34_42_f8iti84k09nctiqngt5u642n65_qin3feir6t.jpg"  alt="First slide" style="height: 280px">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 img-fluid img-thumbnail" src="http://sistech.in/SliderData/images/bnr1.jpg"  alt="Second slide" style="height: 280px">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100 img-fluid img-thumbnail" src="http://student.iant.in/Content/img/slide3.jpg"  alt="Third slide" style="height: 280px">
+    </div>
+    <div class="carousel-item">
+    	<img  class="d-block w-100 img-fluid img-thumbnail" src="https://pbs.twimg.com/media/DZCaywVW4AAb-Tb.jpg"  style="height: 280px">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+		</div>
+	  </div>
+	</div>
+	</div>
+	<p></p>
+    <div class="container-fluid">
+    	<div class="row">
+    		<div class="col-lg-12">
+	           <h1 class="course">Courses Available</h1>
+	           <hr>
+               <div id="red">
+	           <h3><a href="https://www.iantindia.com/Courses/REDHAT"><img src="http://www.worldtrademarkreview.com/files/76a07bce-eab2-4e62-a400-9d6109917da0.png" style="height: 100px;width: 300px;"></a></h3>
+	           <h6><p>IANT- Institute of Advance Network Technology is the No. 1 training partner for Redhat in India, award winner for the past 6 years.</p>
+<p>
+IANT’s association with Redhat has been for around 10 years now and we have been awarded every year since the past 6 years as the biggest Redhat training partner in India in terms of the number of candidates trained and the number of candidates being certified on various Redhat platforms.</p>
+<p>
+Candidates planning to pursue Redhat Certifications at IANT get the latest technology being offered by the parent company. Redhat certifications are unlike other IT certifications, to earn a certification the candidate must pass a hands-on practical exam in which he/she has to complete real-world tasks based on Redhat technologies. Original books, Redhat certified trainers with years of experience and labs to match the real world environment help the candidates at IANT to achieve these much sought after certifications at the very first attempt itself. Candidates can differentiate themselves from other thousands of job seekers in the IT job market by certifying themselves on Redhat technologies and it also gives employers a way to find qualified professionals.</p>
+
+</h6>
+	    <div class="jumbotron" style="padding-right:0px;padding-left: 70px;">
+		<div class="row">
+			
+			<div class=" col-xs-2"><a href="https://www.iantindia.com/Courses/RHCSA">
+			<img class="red" width="300" height="300" src="https://www.iantindia.com/Content/img/h2/h2.png" sizes="(max-width: 300px) 100vw, 300px" style="margin-left: 50px;">
+		 </a>   </div>
+
+		<div class=" col-xs-2"><a href="https://www.iantindia.com/Courses/RHCE">
+			<img class="red" width="300" height="300" src="https://www.iantindia.com/Content/img/h2/h1.png" sizes="(max-width: 300px) 100vw, 300px" style="margin-left: 50px;"></a>
+		</div>
+
+
+		<div class=" col-xs-2"><a href="https://www.iantindia.com/Courses/RHCVA">
+			<img  class="red"width="300" height="300" src="https://www.iantindia.com/Content/img/h2/h3.png" sizes="(max-width: 300px) 100vw, 300px" style="margin-left: 50px;"></a>
+		</div>
+		<div class=" col-xs-2"><a href="https://www.iantindia.com/Courses/OPENSTACK">
+			<img class="red" width="300" height="300" src="https://www.iantindia.com/Content/img/h2/h4.png" sizes="(max-width: 300px) 100vw, 300px" style="margin-left: 50px;"></a>
+		</div>
+		<div class=" col-xs-2"><a href="https://www.iantindia.com/Courses/STORAGESERVER">
+			<img class="red" width="300" height="300" src="https://www.iantindia.com/Content/img/h2/h5.png" sizes="(max-width: 300px) 100vw, 300px" style="margin-left: 50px;"></a>
+		</div>
+
+		<!-- <div class="col-lg-4 col-sm-6" style="margin-left: ">
+			<button type="button" class="btn btn-info" style="margin-left: 200px;"> More info on REDHAT</button>
+		</div> -->
+	</div>
+	   </div>
+      </div>
+  </div>
+</div>
+      <p></p>
+      <div id="microsoft">
+      <h3><a href="https://www.iantindia.com/Courses/Microsoft"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCeS32jfaAvJ0zZ2b3WvjZGinGq9glrGDhnTQqkBlGeTQ_l24PeA"></a>
+      	<h6><p>Microsoft a pioneer of IT Technology provides the core business and productivity programs that most of the organizations in the world rely on. Regardless of the career path of an IT aspirant a clear understanding of Microsoft technologies and the certifications to back up the knowledge will always help them to accelerate their IT career.</p>
+<p>
+IANT- Institute of Advance Network Technology is a <span>“Gold Learning Partner”</span> of Microsoft and offers all the different levels of certification courses provided by Microsoft. Our students not only get a hands-on experience from the latest technologies that Microsoft has to offer but also get originally authorized curriculum from Microsoft which helps them get the best technical know-how and builds their potential for achieving the Microsoft Certifications.</p>
+<p>
+Following are a few of the courses that IANT offers to its students under the Microsoft affiliation:</p>
+
+</h6></h3>
+      <p></p>
+      <div class="jumbotron">
+      	<div class="row">
+      		<div class=" col-md-2"><a href="https://www.iantindia.com/Courses/MicrosoftMCSA">
+      			<img class="img-thumbnail img-fluid img-circle micro" src="https://www.iantindia.com/Content/img/h2/m8.png">
+      		</div>
+      		    		<div class=" col-md-2"><a href="https://www.iantindia.com/Courses/MicrosoftMCSE">
+      			<img class="img-thumbnail img-fluid img-circle micro" src="https://www.iantindia.com/Content/img/h2/m1.png"></a>
+      		</div>
+      		    		<div class=" col-md-2"><a href="https://www.iantindia.com/Courses/MicrosoftSQL">
+      			<img class="img-thumbnail img-fluid img-circle micro" src="https://www.iantindia.com/Content/img/h2/m2.png"></a>
+      		</div>
+      		    		<div class=" col-md-2"><a href="https://www.iantindia.com/Courses/MicrosoftVBNetASPNET">
+      			<img class="img-thumbnail img-fluid img-circle micro" src="http://www.iantjalandhar.in/wp-content/uploads/2017/02/VBnet-aspnet-300x300.png"></a>
+      		</div>
+      		    		<div class=" col-md-2"><a href="https://www.iantindia.com/Courses/MicrosoftDOTNET">
+      			<img class="img-thumbnail img-fluid img-circle micro" src="https://www.iantindia.com/Content/img/h2/m3.png"></a>
+      		</div>
+      		    		<div class=" col-md-2"><a href="https://www.iantindia.com/Courses/MicrosoftCSHARP">
+      			<img class="img-thumbnail img-fluid img-circle micro" src="http://www.iantjalandhar.in/wp-content/uploads/2017/02/Cnet-300x300.png"></a>
+      		</div>
+      				<div class=" col-md-2">
+      			
+      		</div>
+      				<div class=" col-md-2">
+      			
+      		</div>
+      		    		<div class=" col-md-2"><a href="https://www.iantindia.com/Courses/MicrosoftASPNetwithCSharp">
+      			<img class="img-thumbnail img-fluid img-circle micro" src="https://www.iantindia.com/Content/img/h2/m7.png" style="margin-top:30px;"></a>
+      		</div>
+      		<div class=" col-md-2"><a href="https://www.iantindia.com/Courses/MicrosoftASPNetwithVB">
+      			<img class="img-thumbnail img-fluid img-circle micra"src="https://www.iantindia.com/Content/img/h2/m6.png" style="margin-top:30px;"></a>
+      		</div>
+           <!--  <div class="col-lg-4 col-sm-6">
+      		    <button class="btn btn-default" style="height:50px;width: 100px; margin:1.66%;float: left;">Know More !</button>	
+      		</div> -->
+      	</div>
+      </div>
+  </div>
+       <p></p>
+       <div id="comptia">
+      <h3><a href="https://www.iantindia.com/Courses/CompTIA"><img src="https://www.iantindia.com/Content/img/media/comptia-logo.jpg" style="height: 120px;width: 330px;"></a>
+      	<h6><p>CompTIA A+ 220-901 Covers PC Hardware and Peripherals, Mobile Device Hardware, Networking and Troubleshooting Hardware and Network Connectivity Issues.</p>
+
+<p>
+CompTIA A+ 220-902 Covers Installing and Configuring Operating Systems Including Windows, IOS, Android, Apple OS X and Linux. It Also Addresses Security, The Fundamentals of Cloud Computing and Operational Procedures</p></h6>
+      </h3>
+      <p></p>
+      <div class="jumbotron">
+      	<div class="row">
+      		<div class="col-6 col-md-2"><a href="https://www.iantindia.com/Courses/CompTIAAPlus">
+      			<img src="data:image/png;base64,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" style="height: 150px;width:170px; "></a>
+      		</div>
+      		<div class="col-6 col-md-2"><a href="https://www.iantindia.com/Courses/CompTIANPlus">
+      			<img class="img-fluid img-thumbnail" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAwFBMVEX////iIxrgAADhEwDiIBfjKB/th4RfanNeaXJibXbhFATiHBFlcHjtg4DnUkyZn6TyrqzxpaP2ysj/+fmorbH5+fmKkpjR1Nb86Odud3+us7fKzc/u7/Da3N7y8/R2f4blPzj0urjqbWq9wcT98fGOlZvukI3j5ebjLyfoW1acoqeCipC3u7/kNzD1wL/lRkD529rwnJrqcW3oY1/41NP64eDvlpNYbne1QEDreXXlQz3qcGzKXVvfd3Vsf4foX1o5Be7/AAAP3klEQVR4nO1dC3uqutK2gRoiab3UG4iiRerd2l3btbv2Pmf9/391ZsItqLVqBe335X2etYoaSN7MZGYCZFIoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKFwZGqPWvD71Z67rWvBv5k9trzVqXLpZ54HTsn3LMCgToBIMw/Lnrd6lG/gtOJ5vBWQod2fluj33Op2O583tqe9y+B4ZW+XOD2U5sl0DhGZw3+6MdnHodb36DMhDmdl8lHv7volR3QK9NKyy53xV0itbBha1fxDJhofSM9yDBROI25h1Mm3W2eDUA3pfCW/jrDmQpMy+fvvqlNFq1k/RuK5v4KnXbXacMgjC8k49vWdzyowr5tiYAj+39XkBZ4Rw9jHwwEJR++xNOw888A3WTmPhgF8AB2gA0NEbBnebZfAhOwedxxnbfZkLY+RSxrf1s9GdN8G3s1RIE31ibr2zwyDZlBvNq1PVusGNLeVyvCZDOiA3t4mhaLfbHcG/jmeXZ5YR/OTWt/Ta8Q3OTh7NmWBkMTrbkEYPvSJnlM9AH3ef1Zm6KFDKpt2Nn7p4wSsS4xwEuNHlXfAaHNyi3d3v4XqtKQ9Cmg0+oBTsWkZjowkDKt2+jgvtg2jzMK8PIR4W99OSBjEa07M18jsADTXqqW/A4vMjvT56ezAvqVMaPvTcFcQ4Hej+lKkAa88N92gFA2+/xRG0n188Hp8baQ3tumDqZ3u8/h6IvimnrgZfnHatswGi7Kb0sVE2OD2RHwI50rn0hWNxY/5p8RwwpVQ2Bh0OLfyeAaxTTl1JMxsztu1n84NP5dob4KeN6XdNgzOjabE1Nw1ZjvCZ3JQWCNA9h13wQFObUkeVKb0QxSmT3Tx6/TO5rx6IUbahZXoZRa1TmaAPjTqf1fOgu6TxXGaXMDdzQ6oV7MFmWPM9dHkqkIfxkHsE1zGkwYE2/cwBVs9ltJx8nHEjZ9c/MpiffOCS9XurPj0Nhl+dP6xJWLWjc9tSkSaTXa3FWa5TjQbnbvyhS5NB0/5DBD6+uMCQSKj9vhNf1ghZSWWmlM3iDw6TaswBM87jHh3RJLJ6I+S5sq696KT/sP8K7QHguVSB/9eFeyK+u9e0V7kMTKASil2D5TjTsKkRT1lHEDrGH27JS3DwSu4PuM4kYBYyXJO/noispwVbjgmh0tysTdegsZ/ocYlglRSjw0EFtO7jefKCsmzfPf+zHn70X5f40/J1PL57w6MJCSQdMHwl6za5S9VkU2m4Nzk97i7z6bB40rOuHPxPiGxiHsUg09aou4Bb/A9EXCSkVCJkUNhg2CbPeE7aSEHgGzuN1ODPFFPG4piqmbp9MTalYk/kFVRuQAgIZ1lYm9pd4W1BHpbkGb5e3SKVFMM7KFVYRWoewZcCJxiKucQ2XSMZD3Y6ZHwm0gdyK/4MSPV3H/7+g5Qq5O0xGGo1Uk0zHJIFHk60jepkTwhxYh56aiVDo2VweXZYeCe1+HgYDqkH8iEY/hUy7JeC33HIygzfia6BTuukkq6uwSS7bUnGNTPYiY5C5VZqsjQk49BJDAdvOKwKaCFfZIarvi6+XpGnNEPNXAiUFhsVdqVulG1cVuhJdTS3QqkKuRHmEkbf+kMY1vYtaS/6hVhLV/3bFRy0+2SdYliJBiDowfAtddE5Taosc54BqRR8FtszqHkr4gdq2v1EIzerwkOflP48ExhvY5TmBzIckHV/PCD9PkERggkKGIJfHEdGdEgmL8W0QYWhGA2/HmUZzxVHRuz9HLprUDxUX29vJ8FYqi4IeQVR3eLofEMKD/1a/wbIavfoLMCiBgxrZCm8h8BysUzLsNBjSU02o9nGp7PEzEg9ewxSHuVAdKShwbMN3sBTRCOvY7CTZqVj/YSTZpxGJm3OjCyFKInQOjHA0Adfl9mCI4XdmQpxlIgQunLzedFh+GLO8QnqLK7Zy3IkluNQv0G5v7foucFjp9jg2cVuvcSQ2vnETwm8RIgQc2RVix37QohmynuLnh/JhKZnZPZg0YqfPEM35itCsN2JEP3zRadF81bGze04PNJv48O8MMb6o8Po6Ob+/TTLFeFO068cpkaW32JYurl66NKM7f8mwxv9hDDwZzG8IadEST+KYemr288/nqF5yK1ZxfCq8UMZmpqmHVr07AyhbjP1KYN+MF/f398PLXtuhvpLtfoa92/pvVrdXYwQYu74/jBoVaj+Rj+o7LkZBg52ETUe7y/VyI5ii/Zb++NkioKhfimG4mkSCWvHe/S7GJp9KFU8dCgdxtAkZNcFs2FYWJLcGZqPy0FlxxUzYlgoki2GpniKJjRTJ2M8X3yE/4Lr4NAMSpYiacDcAH/WkwvoWKxEEoZadE3tCe8X58ewcG+mGerkddluvw0m2MjxAIPFWqUyeCWDykBcSO8PBhVRVCsOBtUSnrJ4WbfXy2LgGcw/UHSh3VbaLzFDnVQGlaWoCxm282KILxQMRc/HDM2b6C2DAdH15PHKE3kLG6a9w8cJthXNE6i5Gc/tHoRGlPBpVf9PAZ9vRAxFkbBf8mRYxQasicRQ15NnDWsiMXwnSGyBjV2FjRVNejR1XXpoPyAhQ9HcmKGYN1TJDc52A4Zi4ps9wwo+OcKaY4bii8qC9HE++q7dFvHJy+CuWLyPbI4ubnbjQNJe8LGiLhivPp6DpxwvJGAo1CPSUvEwETpFHwN06Kp2CY9u9RwY6jgawfGHDM1HJEZM3cQpNzRfQyneEQx/UE2hCIqgIIYvUlsS7U60vmSawaspC7MUPFMdjOE0wVA8cUOpk3S73rUcGJbEZRdmyBB5BRokRPZqSt4CRVbQdJRyW3QOxgyPJTzzLRhWWjD2Aobv6GoFQ/EETozBSzC8EdW3ScRwiHoWAL550SSGAecSPta/RzXViiDlkjkuJA4zYCsYBrYEGT7gzDaw0xsMX3JhGFi5QcQwfeKSyB6fCNHdYcEhPvCtiQKTQuRxwmsFDIPWCxkKiPjQvAc8gy4Mf+PRIo9xiJ4KTeHH2y6GtTTDKoqmhuNygPYJLvBRMv/sZvjHTDMMFNkEEGFL8SgXWxppXyGIvLHVy9fHEP/cy+MwaAJaHr0Egmuj8IieCuvQGA0Dhs8Swxqa0pfIBebqD0MXHN4CQoZr7G1TgGimGdCPzhcTkHi81kL/Mowtjfm7gIq7yXBFxMP9SNAXYHgTvvtSC13ZHVpBkzxONAzRCvh2gikmy2E5uFx45++jFH5ZRQejaajvE3OToW6Kxg/DeUyucWklmlmsQoZCzwovEFH3K4KAju82Df+6f3qEFgurgqoJc3dxJCJODb1gbTJefKCklmE3yQwhpkFPMwgl/bFaL/OaW0QMTfEyBTIMBuXDUMRu61AJ42uID8Lwk+iEmHeAN6C/g2HQc69BO8x4bpIxw0LC8AZNR9Dg0u84yhR9XvpLZjjYPgIav+NYdomauMkQ72IIt7n/fsb5GdbW66dYWcjTel0NHDu5w9h0uJyEg/S11h6uqmNsnPnnbbWKj97i+aAWnDK4F0PNfFyvV33xW6m4Xq8FLyiyXr/vm0qf/04USd1M0JJPJZJMgW+iCbEeH28e4bXwFC0+RfqtFB+WyO6bF9kxvDoohorh9UMx/P/N8PQ7unniOwwru4Kkq8N3GO6K5K8P32FYePoJFL/FsDAh+2Le68D3GBbeISgUgMm7tnmUM0qmWYqPkjaECztOxnD5XkT8+/e/xWJ49HfxMvj77//ER/8mX79/j2GEzq//hketX78ukxsHKg6PnF+/zp8uo5e8481Oe0v/22iy6LVdjxkZpHWZxStkpizXJbkRepRGgptlssIreQdaWnWRJzwWrXnqGZnkyXKM+OV1l+X9ljfCit/R91g262XdePjNMxkGX6BF4x7ORkmRlxUeNY5dEeS0NnCCljfjxR6jbJQUR3q83KLOjlkG2PANmsYJGWekVXN1RjNSIT9e9eTQY3rRZYzyNI5n6CcJFrJb7AE2NHL1x6zl9La6o358Sh1JhJ1Tl1wdACtewNk7YiSW2aZdmB7PsJlcxM1wWX6Hxquc64evIGtu+ZbjGUouuGXQDLNHWLHkjlj5dA6GbrLw0eXWvpLfxDxZqu7RQ0fDNsP6sVlmpYWjraxcRQhp7d+Bfem03FDa9Qg2eGw7PNyVoXX7GlSuNtv16h6Nhx/43a90beT5lgGOImDI4xy03OIiCS3nmLO96X3l/2eJbenQLEchwkpUrr7faremmJadGUAnOMXizbLAFKxhE8G5KzLRUl5u7fHhc5pE+tnnN2lJ8wrrc4VplTlmnWc+yGcadooVT37K4ThkrIWJaDFFK2X+Z3PakZTSxGbZZ4psJpPDkbF7MbCDabkZjbYDKG8x9ANb2mDhYtDRfCYkae8clFK6D2cj1UgmcKTV/56xnTciSK1uuMmWAV8zxMsGufj97SHpS+tVT8xycCRsaXJW3lKaDibM5an8swcxBIymmL90tjG2bZpUAfFfLvdPXGl25nIqk+m4lG9lnT+UYbCpwgbHjpH4zh7NKY3SSK6US/lxPsk/ezhDvEYTOca91jWkcCG/xHu2ZL1HNMrCg2nG6aaOIbYZlj9nCKQwgWmYBnUkJ6Wr55hwf8Z57L66BhcJm23gt3vXAJhbdBAWr3cCzNgehuBq0JHiLyM50d5myqZM0ZASxmDNVqNrQYDySbwIc8kgggkjGYxl9jIU+YRps9elUpYmh0ndmj26csTWgoaAYpU/q983AnCLGRFEepLPGYqUywApnbfLs5v37sLckPK02dAW6+vqk3EYYg9DTMkO/ZY4P59t5rXPGpIntBn4sQNSQB/H0Ma80jzqtynNMy9kgFmYp6KBSX9b7gE58I9i6IMV9ajI6NftpVNE5gaXs5FIP8twm4YmZV/t1rDNkH7GcGRx6os/xrQ3bc2NfJOXhmgANwfTwgc2x/5yt4Ythp/eNMO80iI8a2Ai2tHc4JfZQaAHtoAn6WdbbI89RcTzwwhs910Ckew6vvuLJphbF9rMAyhylkhBtGyPGGN3mGDXRGGOu8wkPeWB27gUQUEx1UbRuE+nN34zDX++Q+IjiG3Tt5pahnURFQ3gbNBxZjCC6qc3qDeF8/0NiXWvaL+ZAs4PYbJ+4u5pjtgRK9fI5STMxe5px0/FnSneuLquPZA+QcPGW2zN42TRauK9gYtu1nEMBEd6+J6NIxt3W/s5/AQ6s0M3pgy3d2xey+ZOh0MIBiTje59vajXyfHFf9dj9IK8GuFVVsLeaP+90R07MtOd0O3bZNcQ2q+5P2oF0G05naonN8nDLXBY95GZiAz34505/6la5KfRa3nTGxeaHwRbAuAeiNZvuUd+fCWfUbXU6XqfTAoW9dGMUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUTsL/AB7iZtikC6w7AAAAAElFTkSuQmCC" style="height: 150px;width:170px; "></a>
+      		</div>
+      		<div class="col-6 col-md-2"><a href="https://www.iantindia.com/Courses/CompTIACloudPlus">
+      			<img class="img-fluid img-thumbnail" src="https://www.getcertified4less.com/images/products/835.jpg" style="height: 150px;width:170px; "></a>
+      		</div>
+      		<div class="col-6 col-md-2"><a href="https://www.iantindia.com/Courses/CompTIAMobilityPlus">
+      			<img class="img-fluid img-thumbnail" src="data:image/png;base64,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" style="height: 150px;width:170px; "></a>
+      		</div>
+      		<div class="col-6 col-md-2"><a href="https://www.iantindia.com/Courses/CompTIASecurityPlus">
+      			<img class="img-fluid img-thumbnail" src="data:image/png;base64,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" style="height: 150px;width:170px; "></a>
+      		</div>
+ 
+               </div>
+      		 </div>
+            </div>
+      		 <p></p>
+             <div id="cisco">
+      <h3><a href="https://www.iantindia.com/Courses/Cisco"><img src="https://mk0valuewalkgcar7lmc.kinstacdn.com/wp-content/uploads/2016/08/cisco-systems.gif" style="margin-left: -100px;height: 200px;"></a>
+      	<h5>Valuable IT Training Resources for Cisco Certifications</h5>
+      	<p></p>
+      	<h6><p>Cisco certifications validate your ability to use the best-in-class networking and business communications devices from Cisco Systems. The Cisco Career Certification program offers a diverse range of credentials that bring measurable rewards to network professionals and the companies that employ them.</p></h6>
+      </h3>
+      <p></p>
+      <div class="jumbotron">
+      	<div class="row">
+      			<div class="col-6 col-sm-2"><a href="https://www.iantindia.com/Courses/CCNA">
+      				<img class="img-fluid img-thumbnail" src="https://www.iantindia.com/Content/img/h2/c1.jpg" style="height:250px;width: 250px;"></a>
+      			</div>
+      			<div class="col-6 col-sm-2"><a href="https://www.iantindia.com/Courses/CCNP">
+      				<img class="img-fluid img-thumbnail" src="https://www.iantindia.com/Content/img/h2/c3.jpg" style="height:250px;width: 250px;"></a>
+      			</div>
+      			<div class="col-6 col-sm-2"><a href="https://www.iantindia.com/Courses/CCNAVOICE">
+      				<img class="img-fluid img-thumbnail" src="https://www.iantindia.com/Content/img/h2/c2.jpg" style="height:250px;width: 250px;"></a>
+      			</div>
+      		</div>
+      	</div>
+      </div>
+
+      		      		 <p></p>
+                         <div id="oracle">
+      <h3><a href="https://www.iantindia.com/Courses/ORACLE"><img src="https://joshbersin.com/wp-content/uploads/2015/06/oracle-2.jpg" style="width: 300px;"></a>
+      	<h6><p>Oracle certification is not just a piece of a paper. It is one of the most credible and valuable accreditations for IT professionals. Whether you are experienced or new to the industry, the need to prove your abilities and skills to prospective employers continues to gain more importance in an intensely competitive job market. Having a recognized certification can make all the difference in giving companies the confidence to give you that job. So why get yourself certified? In short. Increased job perspective, higher earning power, proven skills, a recognized industry accreditation that is what you get with an Oracle Certification!<p></h6>
+      	</h3>
+      <p></p>
+      <div class="jumbotron">
+         <div class="row">
+      			<div class="col-6 col-md-2 chutiya"><a href="https://www.iantindia.com/Courses/ORACLEDBAOCP">
+      				<img class="img-fluid img-thumbnail" src="https://www.iantindia.com/Content/img/h2/o1.png" style=""></a>
+      			</div>
+      			<div class="col-6 col-md-2"><a href="https://www.iantindia.com/Courses/ORACLEFORMS">
+      				<img  class="img-fluid img-thumbnail" src="https://www.iantindia.com/Content/img/h2/o2.png" style=""></a>
+      			</div>
+
+            	<div class="col-6 col-md-2"><a href="https://www.iantindia.com/Courses/ORACLEJAVA">
+      				<img class="img-fluid img-thumbnail" src="https://www.iantindia.com/Content/img/h2/o4.png" style=""></a>
+      			</div>
+      		</div>
+      	</div>
+      </div>
+      	      		      		 <p></p>
+                                 <div id="star">
+      <h3><a href="https://www.iantindia.com/Courses/STARCERTIFICATION"><img src="data:image/png;base64,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"style="width: 240px;height: 200px;margin-top: 20px;"alt="star"></a>
+      	<p></p>
+      	<h5>Welcome to Star Certification!</h5>
+      	<p></p>
+      	<h6><p>Star Certification is a vendor-neutral certification organization based out of California, USA. Star Certification is a Leader in Cyber Security Certification Programs and Computer Software Programming Language Certifications. Star Certification provides online International Certification to students as well as professionals, thereby giving an impetus to their career enrichment and growth. All Programs under Star Certification are designed to meet the requirements of the present and future of IT industry.<p></h6>
+      	</h3>
+      <p></p>
+      <div class="jumbotron">
+         <div class="row">
+         	<div class=" col-xs-3"><a href="https://www.iantindia.com/Courses/CPROGRAMMING">
+         		<img src="https://www.iantindia.com/Content/img/Star%20Certification/c%20programing.png" alt="C Programming" style="height: 250px;width: 250px;margin-top:40px; margin-left:40px;"></a>
+         	</div>
+         	<div class=" col-xs-3"><a href="https://www.iantindia.com/Courses/CPLUSPLUSPROGRAMMING">
+         		<img src="https://www.iantindia.com/Content/img/Star%20Certification/CPlusPlus.png" alt="C Programming" style="height: 250px;width: 250px;margin-top:40px; margin-left:40px;"></a>
+         	</div>
+         	<div class=" col-xs-3"><a href="https://www.iantindia.com/Courses/HTML">
+         		<img src="https://www.iantindia.com/Content/img/Star%20Certification/HTML.png" alt="C Programming" style="height: 250px;width: 250px;margin-top:40px; margin-left:40px;"></a>
+         	</div>
+         	<div class=" col-xs-3"><a href="https://www.iantindia.com/Courses/PHPDeveloper">
+         		<img src="https://www.iantindia.com/Content/img/Star%20Certification/PHP%20Developer.png" alt="C Programming" style="height: 250px;width: 250px;margin-top:40px; margin-left:40px;"></a>
+         	</div>
+         	<div class=" col-xs-3"><a href="https://www.iantindia.com/Courses/PYTHON">
+         		<img src="https://www.iantindia.com/Content/img/Star%20Certification/PYTHON.png" alt="C Programming" style="height: 250px;width: 250px;margin-top:40px; margin-left:40px;"></a>
+         	</div>
+         	<div class=" col-xs-3"><a href="https://www.iantindia.com/Courses/STARANDROID">
+         		<img src="https://www.iantindia.com/Content/img/Star%20Certification/Android.png" alt="C Programming" style="height: 250px;width: 250px;margin-top:40px; margin-left:40px;"></a>
+         	</div>
+         	<div class=" col-xs-3"><a href="https://www.iantindia.com/Courses/BIGDATAPROGRAMMING">
+         		<img src="https://www.iantindia.com/Content/img/Star%20Certification/BIG%20DATA.png" alt="C Programming" style="height: 250px;width: 250px;margin-top:40px; margin-left:40px;"></a>
+         	</div>
+         	<div class=" col-xs-3"><a href="https://www.iantindia.com/Courses/BIGDATAANALYTICS">
+         		<img src="https://www.iantindia.com/Content/img/Star%20Certification/Big%20data%20Analitics.png" alt="C Programming" style="height: 250px;width: 250px;margin-top:40px; margin-left:40px;"></a>
+         	</div>
+         	<div class=" col-xs-3"><a href="https://www.iantindia.com/Courses/CYBERSECUREUSER">
+         		<img src="https://www.iantindia.com/Content/img/Star%20Certification/Cloud%20Compiting.png" alt="C Programming" style="height: 250px;width: 250px;margin-top:40px; margin-left:40px;"></a>
+         	</div>
+         	<div class=" col-xs-3"><a href="https://www.iantindia.com/Courses/EthicalHacking">
+         		<img src="https://www.iantindia.com/Content/img/Star%20Certification/CSU.png" alt="C Programming" style="height: 250px;width: 250px;margin-top:40px; margin-left:40px;"></a>
+         	</div>
+         	<div class=" col-xs-3"><a href="https://www.iantindia.com/Courses/EthicalHacking">
+         		<img src="https://www.iantindia.com/Content/img/Star%20Certification/EHE.png" alt="C Programming" style="height: 250px;width: 250px;margin-top:40px; margin-left:40px;"></a>
+         	</div>
+
+            <div class=" col-xs-3"><a href="https://www.iantindia.com/Courses/SFICH">
+         		<img src="https://www.iantindia.com/Content/img/Star%20Certification/FICH.png" alt="C Programming" style="height: 250px;width: 250px;margin-top:40px; margin-left:40px;"></a>
+         	</div>
+         	<div class=" col-xs-3"><a href="https://www.iantindia.com/Courses/SSPEA">
+         		<img src="https://www.iantindia.com/Content/img/Star%20Certification/SPE-A.png" alt="C Programming" style="height: 250px;width: 250px;margin-top:40px; margin-left:40px;"></a>
+         	</div>
+         	<div class=" col-xs-3"><a href="https://www.iantindia.com/Courses/SSPEJ">
+         		<img src="https://www.iantindia.com/Content/img/Star%20Certification/SSPE-j.png" alt="C Programming" style="height: 250px;width: 250px;margin-top:40px; margin-left:40px;"></a>
+         	</div>
+         	<div class=" col-xs-3"><a href="https://www.iantindia.com/Courses/SSPEP">
+         		<img src="https://www.iantindia.com/Content/img/Star%20Certification/SPE.png" alt="C Programming" style="height: 250px;width: 250px;margin-top:40px; margin-left:40px;"></a>
+         	</div>
+         	
+         	<div class=" col-xs-3"><a href="https://www.iantindia.com/Courses/SSPEDOTNET">
+         		<img src="https://www.iantindia.com/Content/img/Star%20Certification/SPE.Net.png" alt="C Programming" style="height: 250px;width: 250px;margin-top:40px; margin-left:40px;"></a>
+         	</div>
+         	<div class=" col-xs-3"><a href=https://www.iantindia.com/Courses/SMFAS">
+         		<img src="https://www.iantindia.com/Content/img/Star%20Certification/MFAS.png" alt="C Programming" style="height: 250px;width: 250px;margin-top:40px; margin-left:40px;"></a>
+         	</div>
+         	<div class=" col-xs-3"><a href="https://www.iantindia.com/Courses/BITCOIN">
+         		<img src="https://www.iantindia.com/Content/img/Star%20Certification/Bitcoin.png" alt="C Programming" style="height: 250px;width: 250px;margin-top:40px; margin-left:40px;"></a>
+         	</div>
+         	<div class=" col-xs-3"><a href="https://www.iantindia.com/Courses/SNSAE">
+         		<img src="https://www.iantindia.com/Content/img/Star%20Certification/NSAE.png" alt="C Programming" style="height: 250px;width: 250px;margin-top:40px; margin-left:40px;"></a>
+         	</div>
+         	<div class=" col-xs-3"><a href="https://www.iantindia.com/Courses/SIHE">
+         		<img src="https://www.iantindia.com/Content/img/Star%20Certification/IHE.png" alt="C Programming" style="height: 250px;width: 250px;margin-top:40px; margin-left:40px;"></a>
+         	</div>
+         	<div class=" col-xs-3"><a href="https://www.iantindia.com/Courses/SPTE">
+         		<img src="https://www.iantindia.com/Content/img/Star%20Certification/PTE.png" alt="C Programming" style="height: 250px;width: 250px;margin-top:40px; margin-left:40px;"></a>
+         	</div>
+         	<div class=" col-xs-3"><a href="https://www.iantindia.com/Courses/SESS">
+         		<img src="https://www.iantindia.com/Content/img/Star%20Certification/ESS.png" alt="C Programming" style="height: 250px;width: 250px;margin-top:40px; margin-left:40px;"></a>
+         	</div>
+         	<div class=" col-xs-3"><a href="https://www.iantindia.com/Courses/SSCA">
+         		<img src="https://www.iantindia.com/Content/img/Star%20Certification/SCA.png" alt="C Programming" style="height: 250px;width: 250px;margin-top:40px; margin-left:40px;"></a>
+         	</div>
+         </div>
+     </div>
+ </div>
+     	 <p></p>
+         <div id="career">
+      <h3><img src="data:image/png;base64,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" style="width: 400px;">
+      	<p></p>
+      	<h6><p>IT Industry promises immense job opportunities all around the World. The only challenge is the employability skills and Quality Standards. IANT delivers one step ahead and equips students With International Certifications, a mandatory requirement for Jobs globally. In IANT, students are prepared, trained and Certified in line with the IT industry requirements. Our Training & Certification modules help students enjoy enriching careers.<p></h6>
+      	</h3>
+      <p></p>
+
+      <div class="jumbotron">
+         <div class="row">
+         	<div class="col-sm-12">
+      		 	<h4>Hardware & Networking</h4>
+      		 	<div class="row">
+      		      <div class="comp">
+      		      	<hr>
+      		      
+      		 	    <li><a href="https://www.iantindia.com/Courses/CHNA">CHNA-Computer Hardware & Networking Administrator</a></li>
+      		 	    <p></p>
+      		 		<li><a href="https://www.iantindia.com/Courses/CHNA1">CHNA_1-Computer Hardware & Networking Administrator-1</a></li>
+      		 		<p></p>
+      		 		<li><a href="https://www.iantindia.com/Courses/NCE">NCE-Network Certified Engineer</a></li>
+      		 		<p></p>
+      		 		<li><a href="https://www.iantindia.com/Courses/IMSIDCHNE">IMS-ID-CHNE(Infrastructure Management Service Industrial Demandable Computer Hardware & Networking Engineer</a></li>
+      		 		<p></p>
+      		 		<li><a href="https://www.iantindia.com/Courses/MNST">MNST-Master In Network & Security Technology</a></li>
+      		 
+      		 	  </div>
+      		 	</div>
+
+         <div class="row">
+        	  <div class="col-sm-12">
+      			<h4>Software</h4>
+      	        <div class="row">
+      		      <div class="comp">
+      		      	<hr>
+                    <li><a href="https://www.iantindia.com/Courses/CSP">CSP-Certified Software Programmer</a></li>
+                    <p></p>
+                    <li><a href="https://www.iantindia.com/Courses/CSPP">CSPP-Certified Software Professional Programmer</a></li>
+                    <p></p>
+                    <li><a href="https://www.iantindia.com/Courses/PSD">PSD-Professional Software Developer</a></li>
+                    <p></p>
+                    <li><a href="https://www.iantindia.com/Courses/CISM">CISM-Certified In Software Management</a></li>
+      		 	  </div>
+      		 	</div>
+      		 </div>
+      		</div>
+      	</div>
+      </div>
+  </div>
+</div>
+<section>
+<!-- <div class="col-md-8 col-md-offset-2 nw_qu_inq"> -->
+    <div class="jumbotron message">
+    <div class="container">
+        <div class="row">
+            <p class="info" style="text-decoration:underline;">Contact us for help, additional info or assistance and we'll be with you in no time!</p>
+       <form action="https://formspree.io/kshitijsd.7@gmail. com"
+      method="POST">
+            <div class="row">
+                <div class="col-md-12 form-group">
+                    <label>Full Name</label>
+                    <input type="text" class="form-control txt" id="txtName" name="txtName" placeholder="Ex. Watson" required="">
+                </div>
+                <div class="col-md-6 form-group">
+                    <label>Email</label>
+                    <input type="email" class="form-control txt" id="txtEmail" name="txtEmail" pattern="[^]*[^]*" placeholder="Ex. abc@gmail.com" required="">
+                </div>
+                <div class="col-md-6 form-group">
+                    <label>Mobile Number</label>
+                    <input type="number" class="form-control txt" id="txtMobile" name="txtMobile" placeholder="+91 9800000000" min="1111111111" maxlength="10" pattern="[0-9]{10}" required="">
+                </div>
+                <div class="col-md-6 form-group">
+                    <label>Enter your City</label>
+                    <input name="txtCity" class="form-control txt" placeholder="City" id="txtCity" required="" type="text">
+                   
+                </div>
+                <div class="col-md-6 form-group">
+                    <label>Nearest Center</label>
+                    <select name="drpCenter" id="drpCenter" class="form-control txt">
+                        <option value="" default="default" selected="selected" disabled="disabled">Nearest Center</option>
+
+                        <option value="MCAAAAAA">AHMEDABAD (ASHRAMROAD)</option>
+                        <option value="CCwAAAAO">AHMEDABAD (CHANDKHEDA)</option>
+                        <option value="YCgAAAAY">AHMEDABAD (MANINAGAR)</option>
+                        <option value="HBAAAAAD">AHMEDABAD (NARANPURA)</option>
+                        <option value="ZDQAAAAC">AHMEDABAD (PALDI)</option>
+                        <option value="IHQAAAAV">AHMEDNAGAR</option>
+                        <option value="RLAAAAAA">AJMER</option>
+                        <option value="XLwAAAAQ">AMRAVATI</option>
+                        <option value="RNQAAAAC">BANGALORE</option>
+                        <option value="KPgAAAAR">BANGALORE (JAYANAGAR)</option>
+                        <option value="MMwAAAAF">BHAVANIPATNA</option>
+                        <option value="DIgAAAAV">BHAVNAGAR</option>
+                        <option value="AGQAAAAV">BHOPAL</option>
+                        <option value="MMgAAAAH">BHUBANESWAR</option>
+                        <option value="XJgAAAAP">BHUJ</option>
+                        <option value="NPAAAAAW">BIKANER</option>
+                        <option value="NHwAAAAG">BILASPUR</option>
+                        <option value="BPwAAAAW">CHANDIGARH</option>
+                        <option value="HKAQAAAV">CHENNAI-VELACHERY</option>
+                        <option value="YMAAAAAP">CHITTORGARH</option>
+                        <option value="GLQQAAAZ">CHURU</option>
+                        <option value="TEAAAAAN">DEESA</option>
+                        <option value="BBQAAAAB">DELHI</option>
+                        <option value="QKgAAAAB">FALNA</option>
+                        <option value="TJwAAAAO">GANDHIDHAM</option>
+                        <option value="FLgAAAAM">GODHARA</option>
+                        <option value="BMwQAAAQ">GWALIOR</option>
+                        <option value="POgAAAAE">HIMMATNAGAR</option>
+                        <option value="XBwAAAAH">IANT INDORE</option>
+                        <option value="WEQAAAAY">JABALPUR</option>
+                        <option value="SCQAAAAU">JAIPUR</option>
+                        <option value="ZLAQAAAW">JALANDHAR</option>
+                        <option value="SHgAAAAF">JALGAON</option>
+                        <option value="AIwAAAAV">JAMNAGAR</option>
+                        <option value="QKQAAAAM">JODHPUR</option>
+                        <option value="UIQAAAAV">JUNAGADH</option>
+                        <option value="UJgQAAAO">KANNUR</option>
+                        <option value="XJwQAAAY">KERALA-KOZHIKODE(CALICUT)</option>
+                        <option value="GLgQAAAF">KOLHAPUR</option>
+                        <option value="WKAAAAAK">KOTA</option>
+                        <option value="XQQAAAAJ">LUCKNOW(HUSSAINGANJ)</option>
+                        <option value="JNQQAAAF">LUCKNOW(INDIRANAGAR)</option>
+                        <option value="XQgAAAAK">LUCKNOW (RAJAJIPURAM)</option>
+                        <option value="EQAAAAAR">LUDHIANA</option>
+                        <option value="FDAAAAAF">MEHSANA</option>
+                        <option value="LGgAAAAZ">NAGPUR</option>
+                        <option value="CHAAAAAU">NASIK (PANCHVATI)</option>
+                        <option value="NGwAAAAD">NASIKROAD</option>
+                        <option value="VDgAAAAD">PALANPUR</option>
+                        <option value="FNgAAAAZ">PILANI</option>
+                        <option value="CFgAAAAW">PUNE (CHINCHWAD)</option>
+                        <option value="GFwAAAAO">PUNE (J.M. ROAD)</option>
+                        <option value="YMAQAAAJ">PUNE (HADAPSAR)</option>
+                        <option value="RFQAAAAK">RAIPUR (C.G)</option>
+                        <option value="XJQAAAAK">RAJKOT (KALAWAD)</option>
+                        <option value="TJAAAAAQ">RAJKOT (TRIKONBAG)</option>
+                        <option value="NIAAAAAP">RATLAM</option>
+                        <option value="WNwAAAAI">ROHTAK</option>
+                        <option value="RLwQAAAT">SANGLI</option>
+                        <option value="LMQAAAAJ">SRIGANGANAGAR</option>
+                        <option value="AOwAAAAK">SULTANPUR</option>
+                        <option value="VEgAAAAC">SURAT (ADAJAN)</option>
+                        <option value="YEwAAAAX">SURAT (DELHI GATE)</option>
+                        <option value="TNAAAAAB">UDAIPUR</option>
+                        <option value="WGAAAAAZ">UJJAIN</option>
+                        <option value="YBgAAAAV">V V NAGAR</option>
+                        <option value="VAwAAAAT">VADODARA (SUBHANPURA)</option>
+                        <option value="LAgAAAAH">VADODARA (WAGHODIYA)</option>
+                        <option value="RFAAAAAC">VALSAD</option>
+                        <option value="BDwAAAAF">VISNAGAR</option>
+                    </select>
+                </div>
+                <div class="col-md-12">
+                    <label>Your message</label>
+                    <textarea class="form-control txt2" rows="3" id="txtMessage" name="txtMessage" placeholder="Message" type="text"></textarea>
+                    <p style="text-align:center;padding-top:25px;margin-right: 300px;">
+                        <button type="submit" class="btn btn-default btn-lg">Submit</button>
+                    </p>
+                </div>
+                </div>
+
+</form>
+</div>
+</div>
+    </div>
+</section>
+<aside>
+      	     <div id="contact">   
+        	<div class="container">
+
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-lg-12">
+                    <div class="jumbotron" style="background: white;">
+                    <div class="row">
+                    	 <div class="col-6 col-md-4">
+                    	 	<a href="https://www.iantindia.com/Contact">
+                    	 	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOEO7QE83A4DEc9IywKOQruEWg_KWBTCk03mBW_KspZk0XSz74" style="margin-left:  margin-top: 50px;"></a>
+                    	 </div>
+                    	  
+                        <div class="col-6 col-md-4" style="margin-left: 200px;">
+                            
+                              <h3 style="margin-top: 20px;margin-left: 100px;">Follow Us</h3>
+                              <hr>
+                              <p></p>
+                                <div class="social_content" style="margin-left: 70px;">
+                                    <a href="https://m.facebook.com/IANT.Official.Page" class="flex flex-column items-center justify-center color-inherit w-100 pa2 br2 br--top no-underline hover-bg-navyblue4 hover-white"><i class="fab fa-facebook-square" style="font-size: 48px;"></i></a>
+                                    <a href="https://www.iantindia.com/#" class="flex flex-column items-center justify-center color-inherit w-100 pa2 br2 br--top no-underline hover-bg-lightblue4 hover-white"><i class="fab fa-twitter-square" style="font-size: 48px;"></i></a>
+                                   <a href="https://www.youtube.com/channel/UCDXpTmcSSW5NlMp7rQnf0bw" class="flex flex-column items-center justify-center color-inherit w-100 pa2 br2 br--top no-underline hover-bg-red4 hover-white"><i class="fab fa-youtube-square" style="font-size: 48px;"></i></a>
+                                    <a href="/icons/linkedin?style=brands" class="flex flex-column items-center justify-center color-inherit w-100 pa2 br2 br--top no-underline hover-bg-blue4 hover-white"><i class="fab fa-linkedin" style="font-size: 48px;"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</aside>
+</article>
+</main> 
+
+     <p></p>
+     <p></p>
+     <p></p>
+     <p></p>
+     <p></p>
+     
+    <div class="col-lg-12">
+<footer style="background: #BFC8D9;"><p style="margin-left: 40%;margin-bottom: -1px;">
+	&copy;2018 | KSHITIJ SRIVASTAVA. All rights reserved.</p>
+</footer>
+
+</div>
+</div>
+</div>
+
+      		 	
+      		      
+
+
+           
+         	
+
+
+
+
+<link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+	 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+	 <script type="text/javascript" src="l.js"></script>
+	 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+	 <script type="text/javascript" src="project.js"></script>
+</body>
+</html>
+
+
+
+

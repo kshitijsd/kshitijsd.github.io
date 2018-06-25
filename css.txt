@@ -1,0 +1,124 @@
+
+
+
+
+
+.navbar-light{
+    background: rgba(0,0,0,0.3);
+}
+.course{
+    margin-top: 80px;
+    position: center;
+    margin-left: 40%;
+
+}
+#caro{
+    /*margin-left: 180px;*/
+    height: 650px;
+    /*width: 1240px;*/
+    margin-top:20px;
+}
+.red{
+ height:250px;
+ width: 220px;   
+}
+span{
+    color:#B8C265;
+}
+
+.micro {
+ height:250px;
+ width: 220px; 
+ margin:1.66%;
+ float: left; 
+}
+
+.micra{
+     height:215px;
+ width: 220px; 
+ margin:1.66%;
+ float: left; 
+
+}
+.comp{
+ margin-bottom: 40px;
+ 
+}
+.jumbotron{
+    background: #F3F2F7;
+    /*background-image: url("https://images.unsplash.com/photo-1523634921619-37ce98c1877f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd2bc2a775e35fa78ad1548e7d4d7c8a&auto=format&fit=crop&w=600&q=60");*/
+    /*background-image: url("https://images.unsplash.com/photo-1520529890308-f503006340b4?ixlib=rb-0.3.5&s=35c2baf8cf001dcb41bf0e170138031f&auto=format&fit=crop&w=600&q=60");*/
+    background-image: url("https://images.unsplash.com/photo-1509291184726-a860b15972bc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a36fb1e824b521ea2ffbde195234ed54&auto=format&fit=crop&w=600&q=60");
+
+    background-attachment: fixed;
+    background-size: cover;
+}
+#contact{
+    /*background-image: url("https://images.unsplash.com/photo-1516321165247-4aa89a48be28?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=899e2558d4cef07927641f0ecef4aa6c&auto=format&fit=crop&w=600&q=60");*/
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.line {
+    font-family:'satisfy' ;
+    line-height: 25px;
+    font-size: 25px;
+    color:#1884A8;
+}
+.course{
+    font-family: 'satisfy';
+    color: #065670;
+}
+#red h6,#microsoft h6,#cisco h6 ,#comptia h6,#star h6 , #career h6 ,#oracle h6 {
+    font-family:'satisfy' ;
+    line-height: 33px;
+    font-size: 25px;
+    color:#1884A8;
+}
+#cisco h5,#star h5{
+     font-family:'satisfy' ;
+    line-height: 30px;
+    font-size: 25px;
+    color:#065670;
+    text-decoration: underline;
+
+}
+#career h4{
+ font-family:'pacifico' ;
+    line-height: 30px;
+    font-size: 25px;
+    color:#065670;
+   
+
+}
+#career a{
+    font-family:'satisfy' ;
+    line-height: 30px;
+    font-size: 18px;
+    color:#1884A8;
+}
+.btn{
+    margin-left:300px;
+}
+.nw_qu_inq{
+    border:1px solid #ccc;
+     box-shadow: inset 1px 1px 5px rgba(0,0,0,.1);
+    display:flex;
+    padding:20px;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.message{
+     background-image: url("https://images.unsplash.com/photo-1508841588335-d91719736d2b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=38ecf001b6c849b4e8048ba14ad67e32&auto=format&fit=crop&w=600&q=60");
+    background-attachment: fixed;
+    background-size: cover;
+    font-family:'poor story' ;
+    line-height: 30px;
+    font-size: 25px;
+    color:#0B4659;
+
+}
+
+
+
+
